@@ -1,0 +1,1 @@
+var daysOfWeek_en = ['SUN', 'MON', 'TUE', 'WED', 'THR', 'FRI', 'SAT'];

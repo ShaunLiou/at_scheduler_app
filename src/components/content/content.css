@@ -1,0 +1,155 @@
+
+*{
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+.profile-section {
+    margin: auto ;
+    width: 50%;
+    padding-bottom: 20%;
+    border-bottom: 1px solid #fbfbfb;
+
+}
+
+#teacher-profile .section-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+div {
+    /* border: 1px solid ; */
+    display: block;
+}
+.at-text-center{
+    text-align: center;
+}
+
+.schedule-control-box {
+    overflow: hidden;
+}
+.schedule-control-box .button-group {
+    width: 90px;
+    display: inline-block;
+}
+
+.schedule-control-box .label-box {
+    padding-left: 15px;
+    display: inline-block;
+    width: 150px;
+}
+
+.schedule-control-box .time-zone-description {
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    line-height: 25px;
+}
+.time-zone-description{
+    float: right;
+}
+.at-column-box {
+    padding: 15px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.column-container .title-box[data-v-9a6a964e] {
+    color: #484848;
+}
+
+.root[data-v-9a6a964e] {
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 0 5px;
+
+}
+
+.root[data-v-9a6a964e].disabled{
+
+    border-top: 4px solid #d2d2d2;
+}
+
+.time.available[data-v-9a6a964e] {
+    color: #02cab9;
+    font-weight: 700;
+}
+
+.title-box[data-v-9a6a964e]{
+    border-top: 4px solid #02cab9;
+  
+}
+.title-box[data-v-9a6a964e].disabled{
+    border-top: 4px solid  #d2d2d2;;
+}
+.disable
+
+.is-size-7 {
+    font-size: .75rem!important;
+}
+
+.time.available {
+    color: #02cab9;
+    font-weight: 700;
+}
+.time.booked {
+    padding: 3px 0;
+    border: 1px solid transparent;
+    color: #b6b6b6;
+    font-weight: 600;
+}
+
+
+/* 超過 768px */
+@media screen and (min-width: 768px) {
+    .profile-section{
+        width: 100%;
+        display: block;
+    }
+}
+  
+  /* 介於 480px 與 767px 之間 */
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .profile-section{
+        width: 100%;
+        display: block;
+
+    }
+    h3{
+        font-size: 20px;
+    }
+
+  }
+  
+  /* 未滿 480px，即 479px 以下 */
+  @media screen and (max-width: 479px) {
+    .profile-section{
+        width: 100%;
+        display: block;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .schedule-control-box{
+        /* width: 150%; */
+        display: block;
+    }
+ 
+
+  }
