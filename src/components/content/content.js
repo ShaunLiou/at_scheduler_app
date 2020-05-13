@@ -5,11 +5,11 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import './content.css';
 import CourseTime from '../data/classtime.json';
 import moment from 'moment';
-import MyComponent from '../footer/footer';
+// import MyComponent from '../footer/footer';
 require('moment-timezone');
 
-var newStart, newEnd, newWeekStart, newWeekEnd;
-var newSunDate, newSun, newMonDate, newMon, newTueDate, newTue, newWedDate, newWed, newThuDate, newThu, newFriDate, newFri, newSatDate, newSat;
+let newStart, newEnd, newWeekStart, newWeekEnd;
+let newSunDate, newSun, newMonDate, newMon, newTueDate, newTue, newWedDate, newWed, newThuDate, newThu, newFriDate, newFri, newSatDate, newSat;
 var Today = moment().format('YYYY/MM/DD');
 
     
