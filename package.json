@@ -16,7 +16,7 @@
     "bootstrap": "^4.0.0-alpha.6",
     "material-ui-icons": "^1.0.0-beta.36",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "react": "^16.13.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-transition-group": "^15.6.2",
